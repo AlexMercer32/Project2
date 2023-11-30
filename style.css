@@ -1,0 +1,44 @@
+body{
+    background-color: cyan;
+    display: flex;
+
+}
+.Chip{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 570px;
+    position: fixed;
+}
+.masterCard{
+    width: 50px;
+    height: 40px;
+    position: fixed;
+    margin-left: 830px;
+    margin-top: 20px;
+}
+
+
+.background{
+    width: 350px;
+    height: 200px;
+margin-left: 550px;
+    position: fixed;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px;
+}
+h5{
+    margin: 10px 10px 0 10px;
+}
+.Username{
+    margin-left: 600px;
+    margin-top: 200px;
+    position: fixed;
+}
+.backgroundForm{
+    width: 400px;
+    height: 350px;
+    margin-left: 525px;
+    margin-top: 100px;
+    position: inherit;
+}
