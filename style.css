@@ -22,13 +22,14 @@ body{
 .background{
     width: 350px;
     height: 200px;
-margin-left: 550px;
+    margin-left: 550px;
     position: fixed;
     border-radius: 15px;
     box-shadow: 8px 8px 8px;
 }
 h5{
     margin: 10px 10px 0 10px;
+    width: 25px;
 }
 .Username{
     margin-left: 600px;
@@ -41,4 +42,65 @@ h5{
     margin-left: 525px;
     margin-top: 100px;
     position: inherit;
+}
+.BackSideCard{
+    width: 350px;
+    height: 200px;
+    margin-left: 472px;
+    border-radius: 15px;
+    position: fixed;
+
+}
+.Black{
+    width: 351px;
+    height: 30px;
+    margin-left: 472px;
+    position: fixed;
+    margin-top: 10px;
+}
+.cardNumber{
+    width: 300px;
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 280px;
+    position: fixed;
+}
+.YourCardNumber{
+    width: 250px;
+}
+.YourCardName{
+    width: 250px;
+}
+.CardName{
+    position: fixed;
+    width: 250px;
+    height: 20px;
+    margin-left: 280px;
+    margin-top: 50px;
+}
+.YYMM{
+    position: fixed;
+    width: 60px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 415px;
+}
+.CVV{
+    position: fixed;
+    width: 343px;
+    height: 30px;
+    margin-top: 35px;
+    margin-left: 472px;
+}
+.cvv{
+    position: fixed;
+    margin-left: 490px;
+    margin-top: 20px;
+}
+.Visa{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    margin-left: 620px;
+    margin-top: 60px;
 }
