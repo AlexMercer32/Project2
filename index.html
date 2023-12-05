@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-         <div class="MainCard">
-             <div class="card" id="card">
-              <img src="img/BackgroundCard.jpg" class = "background">
-              <img src="img/chipdpi2.webp" class="Chip">
-              <img src="img/MasterCard.png" class="masterCard">
-             <div class="front">
+<div class="container">
+  <div class="card" id="card">
+    <div class="card-inner">
+      <div class="card-front">
+        <img class="card-front__background" src="img/BackgroundCard.jpg">
+        <img class="card-front__chip" src="img/chipdpi2.webp">
+        <img class="card-front__logo" src="img/MasterCard.png">
+        <p class="card-front__number">1234567890</p>
+      </div>
+      <div class="card-back">
+        <img class="card-back__background" src="img/BackgroundCard.jpg">
+      </div>
+    </div>
 
-             </div>
-             <div class ="back">
+  </div>
 
-             </div>
+  <div class="form-wrapper">
+    <form action="/">
+      <input type="number" placeholder="Enter card numbers">
+      <input type="text" placeholder="Enter card holder name">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
 </div>
-         </div>
-
-<div>
-    <img src="img/BackGroundForm.jpg" class="backgroundForm">
-</div>
 
 
-
-
-<script src = "main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
