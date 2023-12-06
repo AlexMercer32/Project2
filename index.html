@@ -14,9 +14,13 @@
         <img class="card-front__chip" src="img/chipdpi2.webp">
         <img class="card-front__logo" src="img/MasterCard.png">
         <p class="card-front__number">1234567890</p>
+        <p class="card-front__holder">John Doe</p>
+        <p class="card-front__date">05/25</p>
       </div>
       <div class="card-back">
         <img class="card-back__background" src="img/BackgroundCard.jpg">
+        <p class="card-back__cvv">CVV</p>
+        <p class="card-back__cvv-number">111</p>
       </div>
     </div>
 
@@ -24,8 +28,45 @@
 
   <div class="form-wrapper">
     <form action="/">
-      <input type="number" placeholder="Enter card numbers">
-      <input type="text" placeholder="Enter card holder name">
+        <label for="number">Card number
+          <input name="number" type="number">
+        </label>
+
+        <label for="text">Card Holder
+          <input name="text" type="text">
+        </label>
+
+        <div class="select-wrapper">
+          <label class="label-month">Expiration Date
+            <select name="month" id="month">
+            <option value="none" selected disabled hidden>Month</option>
+            <option value="january">January</option>
+            <option value="february">February</option>
+            <option value="march">March</option>
+            <option value="April">April</option>
+            <option value="june">June</option>
+            <option value="july">July</option>
+            <option value="august">August</option>
+            <option value="september">September</option>
+            <option value="october">October</option>
+            <option value="november">November</option>
+            <option value="december">December</option>
+          </select>
+          </label>
+          <select name="year" id="year">
+            <option value="none" selected disabled hidden>Year</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+          </select>
+          <label for="cvv" class="label-cvv">CVV
+            <input name="cvv" type="number">
+          </label>
+        </div>
+
       <button type="submit">Submit</button>
     </form>
   </div>
